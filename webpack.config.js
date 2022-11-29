@@ -9,6 +9,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Weather App',
+            favicon: "./src/assests/imgs/cloudy.png",
             template: './src/template.html'
         }),
     ],
