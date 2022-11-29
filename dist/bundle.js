@@ -22,12 +22,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../src/assests/imgs/meghraj-neupane-YtEzq-hnv5k-unsplash.jpg */ "./src/assests/imgs/meghraj-neupane-YtEzq-hnv5k-unsplash.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../src/assests/imgs/pexels-thepoeticimagery-2902939.jpg */ "./src/assests/imgs/pexels-thepoeticimagery-2902939.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans&family=Nunito&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center center fixed;\n    height: 100%;\n    overflow: hidden;\n    background-size: cover;\n}\n\n* {\n    padding: 0;\n    margin: 0;\n    box-sizing: border-box;\n}\n\nbody {\n    padding: 20px;\n    height: 100vh;\n}\n\nheader {\n    display: flex;\n    justify-content: flex-end;\n    height: 5%;\n}\n\nmain {\n    justify-content: flex-start;\n    align-items: center;\n    height: 90%;\n    display: flex;\n}\n\n.weather-container {\n    color: white;\n    height: 200px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-evenly;\n    padding: 1rem;\n    border-radius: 5px;\n    background-color: rgba(46, 46, 46, 0.752);\n}\n\n.location {\n    font-family: 'Noto Sans', sans-serif;\n    font-size: 35px;\n    text-align: center;\n}\n\n.temperature-details-container {\n    display: flex;\n    gap: 15px;\n}\n\n.temperature {\n    font-family: 'Nunito', sans-serif;\n    font-size: 55px;\n}\n\n.details {\n    font-family: 'Noto Sans', sans-serif;\n    display: flex;\n    flex-direction: column;\n    font-size: 18px;\n}\n\ninput, button {\n    height: 40px;\n    padding: 1em;\n    background-color: rgba(46, 46, 46, 0.752);\n    border: none;\n    color: white;\n    outline: none;\n    border-radius: 10px;\n    font-family: 'Noto Sans', sans-serif;\n}\n\ninput::placeholder {\n    color: white;\n}\n\nbutton {\n    padding: 10px;\n    border-radius: 50%;\n}\n\nbutton:hover {\n    cursor: pointer;\n    color: red;\n}", "",{"version":3,"sources":["webpack://./src/assests/styles/main.css"],"names":[],"mappings":"AAEA;IACI,iFAAyG;IACzG,YAAY;IACZ,gBAAgB;IAChB,sBAAsB;AAC1B;;AAEA;IACI,UAAU;IACV,SAAS;IACT,sBAAsB;AAC1B;;AAEA;IACI,aAAa;IACb,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,yBAAyB;IACzB,UAAU;AACd;;AAEA;IACI,2BAA2B;IAC3B,mBAAmB;IACnB,WAAW;IACX,aAAa;AACjB;;AAEA;IACI,YAAY;IACZ,aAAa;IACb,aAAa;IACb,sBAAsB;IACtB,6BAA6B;IAC7B,aAAa;IACb,kBAAkB;IAClB,yCAAyC;AAC7C;;AAEA;IACI,oCAAoC;IACpC,eAAe;IACf,kBAAkB;AACtB;;AAEA;IACI,aAAa;IACb,SAAS;AACb;;AAEA;IACI,iCAAiC;IACjC,eAAe;AACnB;;AAEA;IACI,oCAAoC;IACpC,aAAa;IACb,sBAAsB;IACtB,eAAe;AACnB;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,yCAAyC;IACzC,YAAY;IACZ,YAAY;IACZ,aAAa;IACb,mBAAmB;IACnB,oCAAoC;AACxC;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,aAAa;IACb,kBAAkB;AACtB;;AAEA;IACI,eAAe;IACf,UAAU;AACd","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans&family=Nunito&display=swap');\n\nhtml {\n    background: url(/src/assests/imgs/meghraj-neupane-YtEzq-hnv5k-unsplash.jpg) no-repeat center center fixed;\n    height: 100%;\n    overflow: hidden;\n    background-size: cover;\n}\n\n* {\n    padding: 0;\n    margin: 0;\n    box-sizing: border-box;\n}\n\nbody {\n    padding: 20px;\n    height: 100vh;\n}\n\nheader {\n    display: flex;\n    justify-content: flex-end;\n    height: 5%;\n}\n\nmain {\n    justify-content: flex-start;\n    align-items: center;\n    height: 90%;\n    display: flex;\n}\n\n.weather-container {\n    color: white;\n    height: 200px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-evenly;\n    padding: 1rem;\n    border-radius: 5px;\n    background-color: rgba(46, 46, 46, 0.752);\n}\n\n.location {\n    font-family: 'Noto Sans', sans-serif;\n    font-size: 35px;\n    text-align: center;\n}\n\n.temperature-details-container {\n    display: flex;\n    gap: 15px;\n}\n\n.temperature {\n    font-family: 'Nunito', sans-serif;\n    font-size: 55px;\n}\n\n.details {\n    font-family: 'Noto Sans', sans-serif;\n    display: flex;\n    flex-direction: column;\n    font-size: 18px;\n}\n\ninput, button {\n    height: 40px;\n    padding: 1em;\n    background-color: rgba(46, 46, 46, 0.752);\n    border: none;\n    color: white;\n    outline: none;\n    border-radius: 10px;\n    font-family: 'Noto Sans', sans-serif;\n}\n\ninput::placeholder {\n    color: white;\n}\n\nbutton {\n    padding: 10px;\n    border-radius: 50%;\n}\n\nbutton:hover {\n    cursor: pointer;\n    color: red;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "html {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center center fixed;\n    height: 100%;\n    overflow: hidden;\n    background-size: cover;\n}\n\n* {\n    padding: 0;\n    margin: 0;\n    box-sizing: border-box;\n}\n\nbody {\n    padding: 20px;\n    height: 100vh;\n}\n\nheader {\n    display: flex;\n    justify-content: flex-end;\n    height: 5%;\n}\n\nmain {\n    justify-content: flex-start;\n    align-items: center;\n    height: 90%;\n    display: flex;\n}\n\n.weather-container {\n    color: white;\n    height: 200px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-evenly;\n    padding: 1rem;\n    border-radius: 5px;\n    background-color: rgba(46, 46, 46, 0.752);\n}\n\n.location {\n    font-family: 'Noto Sans', sans-serif;\n    font-size: 35px;\n    text-align: center;\n}\n\n.temperature-details-container {\n    display: flex;\n    gap: 15px;\n}\n\n.temperature {\n    font-family: 'Nunito', sans-serif;\n    font-size: 55px;\n}\n\n.details {\n    font-family: 'Noto Sans', sans-serif;\n    display: flex;\n    flex-direction: column;\n    font-size: 18px;\n}\n\ninput, button {\n    height: 40px;\n    padding: 1em;\n    background-color: rgba(46, 46, 46, 0.752);\n    border: none;\n    color: white;\n    outline: none;\n    border-radius: 10px;\n    font-family: 'Noto Sans', sans-serif;\n}\n\ninput::placeholder {\n    color: white;\n}\n\nbutton {\n    padding: 10px;\n    border-radius: 50%;\n}\n\nbutton:hover {\n    cursor: pointer;\n    color: red;\n}\n\n.temperature::after {\n    content: '°C';\n}\n\n#humidity::after {\n    content: '%';\n}\n\n.fade-in {\n    animation: fadeIn 0.5s;\n}\n  \n.fade-in2 {\n    animation: fadeIn2 1.1s;\n}\n  \n@keyframes fadeIn {\n    0% {\n      opacity: 0;\n    }\n    100% {\n      opacity: 1;\n    }\n}\n  \n@keyframes fadeIn2 {\n    0% {\n      opacity: 0.1;\n      transform: scale(0.9, 0.9);\n    }\n    100% {\n      opacity: 1;\n    }\n}", "",{"version":3,"sources":["webpack://./src/assests/styles/main.css"],"names":[],"mappings":"AAEA;IACI,iFAAoG;IACpG,YAAY;IACZ,gBAAgB;IAChB,sBAAsB;AAC1B;;AAEA;IACI,UAAU;IACV,SAAS;IACT,sBAAsB;AAC1B;;AAEA;IACI,aAAa;IACb,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,yBAAyB;IACzB,UAAU;AACd;;AAEA;IACI,2BAA2B;IAC3B,mBAAmB;IACnB,WAAW;IACX,aAAa;AACjB;;AAEA;IACI,YAAY;IACZ,aAAa;IACb,aAAa;IACb,sBAAsB;IACtB,6BAA6B;IAC7B,aAAa;IACb,kBAAkB;IAClB,yCAAyC;AAC7C;;AAEA;IACI,oCAAoC;IACpC,eAAe;IACf,kBAAkB;AACtB;;AAEA;IACI,aAAa;IACb,SAAS;AACb;;AAEA;IACI,iCAAiC;IACjC,eAAe;AACnB;;AAEA;IACI,oCAAoC;IACpC,aAAa;IACb,sBAAsB;IACtB,eAAe;AACnB;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,yCAAyC;IACzC,YAAY;IACZ,YAAY;IACZ,aAAa;IACb,mBAAmB;IACnB,oCAAoC;AACxC;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,aAAa;IACb,kBAAkB;AACtB;;AAEA;IACI,eAAe;IACf,UAAU;AACd;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,sBAAsB;AAC1B;;AAEA;IACI,uBAAuB;AAC3B;;AAEA;IACI;MACE,UAAU;IACZ;IACA;MACE,UAAU;IACZ;AACJ;;AAEA;IACI;MACE,YAAY;MACZ,0BAA0B;IAC5B;IACA;MACE,UAAU;IACZ;AACJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans&family=Nunito&display=swap');\n\nhtml {\n    background: url(/src/assests/imgs/pexels-thepoeticimagery-2902939.jpg) no-repeat center center fixed;\n    height: 100%;\n    overflow: hidden;\n    background-size: cover;\n}\n\n* {\n    padding: 0;\n    margin: 0;\n    box-sizing: border-box;\n}\n\nbody {\n    padding: 20px;\n    height: 100vh;\n}\n\nheader {\n    display: flex;\n    justify-content: flex-end;\n    height: 5%;\n}\n\nmain {\n    justify-content: flex-start;\n    align-items: center;\n    height: 90%;\n    display: flex;\n}\n\n.weather-container {\n    color: white;\n    height: 200px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-evenly;\n    padding: 1rem;\n    border-radius: 5px;\n    background-color: rgba(46, 46, 46, 0.752);\n}\n\n.location {\n    font-family: 'Noto Sans', sans-serif;\n    font-size: 35px;\n    text-align: center;\n}\n\n.temperature-details-container {\n    display: flex;\n    gap: 15px;\n}\n\n.temperature {\n    font-family: 'Nunito', sans-serif;\n    font-size: 55px;\n}\n\n.details {\n    font-family: 'Noto Sans', sans-serif;\n    display: flex;\n    flex-direction: column;\n    font-size: 18px;\n}\n\ninput, button {\n    height: 40px;\n    padding: 1em;\n    background-color: rgba(46, 46, 46, 0.752);\n    border: none;\n    color: white;\n    outline: none;\n    border-radius: 10px;\n    font-family: 'Noto Sans', sans-serif;\n}\n\ninput::placeholder {\n    color: white;\n}\n\nbutton {\n    padding: 10px;\n    border-radius: 50%;\n}\n\nbutton:hover {\n    cursor: pointer;\n    color: red;\n}\n\n.temperature::after {\n    content: '°C';\n}\n\n#humidity::after {\n    content: '%';\n}\n\n.fade-in {\n    animation: fadeIn 0.5s;\n}\n  \n.fade-in2 {\n    animation: fadeIn2 1.1s;\n}\n  \n@keyframes fadeIn {\n    0% {\n      opacity: 0;\n    }\n    100% {\n      opacity: 1;\n    }\n}\n  \n@keyframes fadeIn2 {\n    0% {\n      opacity: 0.1;\n      transform: scale(0.9, 0.9);\n    }\n    100% {\n      opacity: 1;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -551,13 +551,13 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/assests/imgs/meghraj-neupane-YtEzq-hnv5k-unsplash.jpg":
-/*!*******************************************************************!*\
-  !*** ./src/assests/imgs/meghraj-neupane-YtEzq-hnv5k-unsplash.jpg ***!
-  \*******************************************************************/
+/***/ "./src/assests/imgs/pexels-thepoeticimagery-2902939.jpg":
+/*!**************************************************************!*\
+  !*** ./src/assests/imgs/pexels-thepoeticimagery-2902939.jpg ***!
+  \**************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "4bbae9e24bd460d31f5a.jpg";
+module.exports = __webpack_require__.p + "d37b9d63615cbcd7ded2.jpg";
 
 /***/ })
 
@@ -713,6 +713,7 @@ const button = document.querySelector('button');
 
 
 const renderWeather= (city, country, weather, temp, humidity, wind) => {
+  const div = document.querySelector('.weather-container');
   const cityPara = document.querySelector('#city');
   const countryPara = document.querySelector('#country');
   const temperaturePara = document.querySelector('.temperature');
@@ -721,9 +722,18 @@ const renderWeather= (city, country, weather, temp, humidity, wind) => {
 
   cityPara.textContent = city;
   countryPara.textContent = country;
-  temperaturePara.textContent = `${temp}°C`;
-  humidityPara.textContent = `Humidity: ${humidity}%`;
-  windPara.textContent = `Wind Speed: ${wind} kmph`;
+  temperaturePara.textContent = `${temp}`;
+  humidityPara.textContent = `Humidity: ${humidity}`;
+  windPara.textContent = `Wind Speed: ${wind}kmph`;
+
+  
+  if (div.classList.contains('fade-in2')) {
+    div.classList.remove('fade-in2');
+    div.offsetWidth;
+    div.classList.add('fade-in2');
+  } else {
+    div.classList.add('fade-in2');
+  }
 };
 
 
@@ -735,17 +745,16 @@ async function getWeather(defaultValue) {
 
   if (defaultValue && useDefault === true) {
     useDefault = false;
-    response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=1986480656ec490d950204923202611&q=${defaultValue}`, { mode: 'cors'});
+    response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=1986480656ec490d950204923202611&q=${defaultValue}`, { mode: 'cors'});
   }else {
     if (userInputCity.length === 0) {
       alert('Please provide a city.');
       return;
     }
-    response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=1986480656ec490d950204923202611&q=${userInputCity}`, { mode: 'cors'});
+    response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=1986480656ec490d950204923202611&q=${userInputCity}`, { mode: 'cors'});
   }
 
   const responseJson = await response.json();
-  print(responseJson);
   const city = responseJson.location.name;
   const country = responseJson.location.country;
   const currentWeather = responseJson.current.condition.text;
@@ -754,6 +763,7 @@ async function getWeather(defaultValue) {
   const windKmph = responseJson.current.wind_kph;
 
   renderWeather(city, country, currentWeather, currentTemperature, humidity, windKmph);
+  input.value = '';
 }
 
 
