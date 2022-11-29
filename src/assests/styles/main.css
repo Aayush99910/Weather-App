@@ -18,6 +18,42 @@ body {
     height: 100vh;
 }
 
+@media (max-width: 800px) {
+    main {
+        justify-content: center;
+    }
+
+    .location {
+        font-size: 30px;
+    }
+
+    .temperature {
+        font-size: 50px;
+    }
+
+    .details {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 801px) {
+    main {
+        justify-content: flex-start;
+    }
+
+    .location {
+        font-size: 38px;
+    }
+
+    .temperature {
+        font-size: 70px;
+    }
+
+    .details {
+        font-size: 20px;
+    }
+}
+
 header {
     display: flex;
     justify-content: flex-end;
@@ -25,7 +61,6 @@ header {
 }
 
 main {
-    justify-content: flex-start;
     align-items: center;
     height: 90%;
     display: flex;
@@ -33,7 +68,7 @@ main {
 
 .weather-container {
     color: white;
-    height: 200px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -44,25 +79,23 @@ main {
 
 .location {
     font-family: 'Noto Sans', sans-serif;
-    font-size: 35px;
     text-align: center;
 }
 
 .temperature-details-container {
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
 .temperature {
     font-family: 'Nunito', sans-serif;
-    font-size: 55px;
 }
 
 .details {
     font-family: 'Noto Sans', sans-serif;
     display: flex;
     flex-direction: column;
-    font-size: 18px;
 }
 
 input, button {
@@ -99,7 +132,7 @@ button:hover {
 }
 
 .fade-in {
-    animation: fadeIn 0.5s;
+    animation: fadeIn 0.3s;
 }
   
 .fade-in2 {

@@ -12,12 +12,14 @@ const renderWeather= (city, country, weather, temp, humidity, wind) => {
   const cityPara = document.querySelector('#city');
   const countryPara = document.querySelector('#country');
   const temperaturePara = document.querySelector('.temperature');
+  const detailPara = document.querySelector('#detail');
   const humidityPara = document.querySelector('#humidity');
   const windPara = document.querySelector('#wind');
 
   cityPara.textContent = city;
   countryPara.textContent = country;
   temperaturePara.textContent = `${temp}`;
+  detailPara.textContent = `${weather}`;
   humidityPara.textContent = `Humidity: ${humidity}`;
   windPara.textContent = `Wind Speed: ${wind}kmph`;
 
