@@ -36,7 +36,7 @@ const renderWeather= (city, country, weather, temp, humidity, wind) => {
 
 const renderError = () => {
   const cityPara = document.querySelector('#city');
-
+  console.log("Git testing here")
   cityPara.textContent = "There was an error. Please try again later."
 }
 
